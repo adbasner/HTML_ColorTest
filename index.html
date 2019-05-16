@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Color Test</title>
+  <style type="text/css">
+    #main {
+      /*height: 9*/
+      display: grid;
+      background-color: white;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      grid-gap: 1%;
+    }
+
+    .box {
+      font-size: 50px;
+      font-weight: bold;
+      font-family: arial, 'sans-serif';
+      text-align: center;
+    }
+    #b1 {
+      background-color: black;
+      color: white;
+      border-right: 10px solid salmon;
+    }
+    #b2 {
+      background-color: #020202;
+      color: #efefef;
+      border-right: 10px solid cornflowerblue;
+    }
+    #b3 {
+      background-color: #222;
+      color: #fafafa;
+      border-right: 10px solid #e32150;
+    }
+    #b4 {
+      background-color: #010101;
+      color: #efefef;
+      border-right: 10px solid #4caf50;
+    }
+    #b5 {
+      background-color: #242424;
+      color: #f0f0f0;
+      border-right: 10px solid #bada55;
+    }
+    #b6 {
+      background-color: #101010;
+      color: #fefefe;
+      border-right: 10px solid #2196f3;
+    }
+    #b7 {
+      background-color: #232323;
+      color: #efefef;
+      border-right: 10px solid #b000b5;
+    }
+    #b8 {
+      background-color: #2a2a2a;
+      color: #dedede;
+      border-right: 10px solid #2196f3;
+    }
+    #b9 {
+      background-color: #121212;
+      color: #dedede;
+      border-right: 10px solid rebeccapurple;
+    }
+  </style>
+</head>
+<body>
+  <div id="main">
+    <div class="box" id="b1"><p>Color: black</p><p>Text: white</p></div>
+    <div class="box" id="b2"><p>Color: #020202</p><p>Text: #efefef</p></div>
+    <div class="box" id="b3"><p>Color: #222</p><p>Text: #fafafa</p></div>
+    <div class="box" id="b4"><p>Color: #010101</p><p>Text: #efefef</p></div>
+    <div class="box" id="b5"><p>Color: #242424</p><p>Text: #f0f0f0</p></div>
+    <div class="box" id="b6"><p>Color: #101010</p><p>Text: #fefefe</p></div>
+    <div class="box" id="b7"><p>Color: #232323</p><p>Text: #efefef</p></div>
+    <div class="box" id="b8"><p>Color: #2a2a2a</p><p>Text: #dedede</p></div>
+    <div class="box" id="b9"><p>Color: #121212</p><p>Text: #dedede</p></div>
+  </div>
+</body>
+</html>
